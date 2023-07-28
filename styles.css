@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 100vw;
+    background-color: #0f0f0f;
+    color: white;
+    padding: 5vh 7vw;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    width: 90%;
+    height: 100vh;
+    margin: 5vh auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card{
+    border: 3px solid rgb(213, 210, 217);
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border-bottom: 3px solid rgb(213, 210, 217);
+    margin-bottom: 20px;
+}
+
+.status{
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin: 5px 0;
+}
+
+.APPROVED{
+    background-color: lightblue;
+    color: #0f0f0f;
+}
+
+.PENDING{
+    background-color: yellow;
+    color: black;
+}
+
+.COMPLETED{
+    background-color: green;
+}
+
+.CANCELLED{
+    background-color: red;
+}
+
+.number{
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.date{
+    font-weight: 500;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.title{
+    font-size: 20px;
+}
+
+.address{
+    font-size: 15px;
+}
+
+.price{
+    align-self: flex-end;
+    font-size: 18px;
+}
